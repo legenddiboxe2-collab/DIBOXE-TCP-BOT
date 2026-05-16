@@ -7240,9 +7240,9 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                         
                         def get_random_color(): return "_" 
                         message = """[C][B][FF00FF]═⚡ Hᴇʟʟᴏ, <Uꜱᴇʀ> 
-[b][c][00FF00]Wʟᴄ Tᴏ MG24 Bᴏᴛ Hᴇʀᴇ 
+[b][c][00FF00]Wʟᴄ Tᴏ DIBOXE Bᴏᴛ Hᴇʀᴇ 
 ❀️ [B][C][00FFFF]╭[00FFFF]─[00FFFF]╮[00FFFF]╔═══════╗
-[C][B][00FFFF]│[FFFFFF]ꚠ[00FFFF]│[00FFFF]║[FFFFFF]@MG24_GAMER[00FFFF]║
+[C][B][00FFFF]│[FFFFFF]ꚠ[00FFFF]│[00FFFF]║[FFFFFF]@DIBOXELEGIT[00FFFF]║
 [C][B][00FFFF]╰[00FFFF]─[00FFFF]╯[00FFFF]╚═══════╝
 [00FFFF]━━━━━━━━━━━━[FF69B4]"""
                         # In your auto-join (Old Handler) code, find this line:
@@ -7270,9 +7270,9 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                     
                     def get_random_color(): return "_" 
                     message = """[C][B][FF00FF]═⚡ Hᴇʟʟᴏ, <Uꜱᴇʀ> 
-[b][c][00FF00]Wʟᴄ Tᴏ MG24 Bᴏᴛ Hᴇʀᴇ 
+[b][c][00FF00]Wʟᴄ Tᴏ DIBOXE Bᴏᴛ Hᴇʀᴇ 
 ❀️ [B][C][00FFFF]╭[00FFFF]─[00FFFF]╮[00FFFF]╔═══════╗
-[C][B][00FFFF]│[FFFFFF]ꚠ[00FFFF]│[00FFFF]║[FFFFFF]@MG24_GAMER[00FFFF]║
+[C][B][00FFFF]│[FFFFFF]ꚠ[00FFFF]│[00FFFF]║[FFFFFF]@DIBOXELEGIT[00FFFF]║
 [C][B][00FFFF]╰[00FFFF]─[00FFFF]╯[00FFFF]╚═══════╝
 [00FFFF]━━━━━━━━━━━━[FF69B4]"""
                         # In your auto-join (Old Handler) code, find this line:
@@ -8308,9 +8308,9 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [B][C][1E90FF]━━━━━━━━━━━━━━
 [FFD700]⭐ Rating Machine ⭐
 [1E90FF]━━━━━━━━━━━━━━
-[32CD32]{subject} কে আমি দিচ্ছি {rating}/100 রেট!
+[32CD32]{subject} I give it a {rating}/100!
 [1E90FF]━━━━━━━━━━━━━━
-[FFFF00]💡 মজার রেটিং, বাস্তব বা কল্পনা সবই সম্ভব!
+[FFFF00]💡 Funny ratings, real or imagined, are all possible!
 [1E90FF]━━━━━━━━━━━━━━"""
                             await safe_send_message(response.Data.chat_type, msg, uid, chat_id, key, iv)
 
@@ -8504,7 +8504,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 🔓 Whitelist enabled: {'YES' if WHITELIST_ONLY else 'NO'}
 
 👑 Owner (always allowed):
-• 14444444004
+• 3112644964
 
 👥 Whitelisted UIDs:"""
     
@@ -9230,25 +9230,25 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             msg = """
 [B][FF0000]🛡️ ADMIN INFO
 
-[B][FFD700]💬 Bot বিক্রয়ের জন্য উপলব্ধ
+[B][FFD700]💬 Bot created by Diboxe !
 [B][32CD32]⚡ Fast, Powerful & Secure
-[B][00FFFF]🌟 সব ধরনের গেমিং/টিম চ্যাটে ব্যবহারযোগ্য
-[B][FF1493]🔥 কিনতে Telegram এ যোগাযোগ করুন
-[B][FFD700]📌 @MG24_GAMER
+[B][00FFFF]🌟 Works non 24/7 non crash bot
+[B][FF1493]🔥 Contact Tiktok to buy
+[B][FFD700]📌 @DIBOXELEGIT
 [B][32CD32]💡 Limited stock!
 """
                             await safe_send_message(response.Data.chat_type, msg, uid, chat_id, key, iv)
 
                         if inPuTMsG.strip().startswith("/dare"):
                             dares = [
-                                "🗣️ কোনো বন্ধুর সাথে ৩০ সেকেন্ড ধরে কণ্ঠ উঁচু করে গান গাও!",
-                                "😜 ফোনটা মুখের সামনে ধরে মজা করে মেকআপ করো!",
-                                "😂 একটি মজার মিম বানাও এবং সবাইকে দেখাও!",
-                                "🤪 ২০ সেকেন্ডের জন্য বাচ্চার মতো কান্না করো!",
-                                "😎 কোনো এক অচেনা বন্ধুর কাছে অদ্ভুত কমপ্লিমেন্ট দাও!",
-                                "🫣 পছন্দের কারো নাম ধরে নাটকীয়ভাবে প্রেমের প্রস্তাব দাও!",
-                                "🥳 ১ মিনিটের জন্য অদ্ভুত নাচ করো, যতটা সম্ভব হাস্যকর!",
-                                "🤭 সব থেকে লজ্জার জোকস বলে সবাইকে হাসাও!"
+                               "🗣️ Sing a song with a friend for 30 seconds!",
+"😜 Put on some fun makeup while holding your phone in front of your face!",
+"😂 Make a funny meme and show it to everyone!",
+"🤪 Cry like a baby for 20 seconds!",
+"😎 Give a weird compliment to a random friend!",
+"🫣 Dramatically propose to someone you like by name!",
+"🥳 Do a weird dance for 1 minute, as funny as you can!",
+"🤭 Make everyone laugh with the most embarrassing jokes!"
                             ]
                             selected_dare = random.choice(dares)
 
@@ -9323,7 +9323,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 f"║\n"
                                 f"║ [FFFFFF]✨ {selected_message}\n"
                                 f"║ ────────────\n"
-                                f"║ ⚡ [FF00FF] MG24 VIP BOT ⚡\n"
+                                f"║ ⚡ [FF00FF] DIBOXE LEGIT BOT ⚡\n"
                                 f"╚════════════╝"
                             )
                             await safe_send_message(response.Data.chat_type, dhadha_message, uid, chat_id, key, iv)
@@ -9759,7 +9759,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [B][FFD700]Team Code : {teamcode}
 [B][00FFFF]{data.get("message")}
 [B][FFFFFF]━━━━━━━━━━━━━━━━━━
-[B][FF69B4]Developer : MG24 GAMER
+[B][FF69B4]Developer : DIBOXE LEGIT
 """
                                     else:
                                         ghost_msg = f"""
@@ -10544,7 +10544,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                 f"║\n"
                                 f"║ [FF69B4]✨ {selected_message}\n"
                                 f"║ ────────────────\n"
-                                f"║ ⚡ [FF00FF] MG24 GAMER VIP BOT ⚡\n"
+                                f"║ ⚡ [FF00FF] DIBOXE LEGIT VIP BOT ⚡\n"
                                 f"╚════════════════════╝"
                             )
                             await safe_send_message(response.Data.chat_type, admin_message, uid, chat_id, key, iv)
@@ -11496,7 +11496,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             await asyncio.sleep(0.2)
 
                             p13 = """[C][B][FF00FF]━━━━━━━━━━━━━━
-[FFFFFF]         TCP HELP MENU 13
+[FFFFFF]  DIBOXE TCP HELP MENU 13
 [FF00FF]━━━━━━━━━━━━━━
 
 [00FF00]61 │ Ghost
