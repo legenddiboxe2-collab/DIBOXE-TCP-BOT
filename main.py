@@ -6946,7 +6946,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
     global online_writer, last_status_packet, status_response_cache, senthi
     global insquad, joining_team, whisper_writer, region
  
-    bot_uid = 13777734363
+    bot_uid = 15641736954
  
     if insquad is not None:
         insquad = None
@@ -7091,10 +7091,10 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
   
 
                         emote_id = 909052004
-                        bot_uid = 13777734363
+                        bot_uid = 15641736954
     
                         # 🎯 FIX: Check SQUAD_OWNER (person who clicked "invite")
-                        if "MĢ24_GÀMER" in WHITELISTED_UIDS:
+                        if "DIBOXE LEGIT" in WHITELISTED_UIDS:
                             print(f"✅ Whitelisted user {squad_owner} invited bot. Accepting...")
 
 
@@ -7137,7 +7137,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                             try:
                                 print(f"🚫 Bot is private! Ignoring invite from {squad_owner}")
                                  # Send quick reject message
-                                bot_uid = 13777734363
+                                bot_uid = 15641736954
                                 message_text = f" Can't accept Your request Talk to MG24 GAMER"
                                 private_msg_packet = await xSEndMsg(
                                     Msg=message_text,
@@ -7527,7 +7527,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             selected_emote = random.choice(emote_list)
                             print(f"🤖 সিলেক্টেড ইমোট: {selected_emote}")
                             
-                            bot_uid = 13777734363  # আপনার বটের UID
+                            bot_uid = 15641736954  # আপনার বটের UID
                             
                             try:
                                 # ইউজারকে ইমোট পাঠান
