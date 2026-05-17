@@ -861,7 +861,7 @@ What happens:
 ✅ Status: Ready to join
 
 📱 Player will see:
-"MG24 GAMER wants to join your team"
+"DIBOXE LEGIT wants to join your team"
 
 ✅ When player clicks ACCEPT:
 Bot will automatically join player's team!
@@ -2207,7 +2207,7 @@ async def banecipher(target_uid, key, iv):
     return bytes.fromhex(final_packet)
 
 async def black666(client_id, key, iv):
-    banner_text = "[FF0000][B][C] ERROR , WELCOME TO [FFFFFF]MG24 GAMER [00FF00]___ MG24 GAMER____ BOT ! \n[FFFF00]NEW VERSION NEW FUNCTION !\n[FF0000]TELEGRAM : @MG24_GAMER\n\n"     
+    banner_text = "[FF0000][B][C] ERROR , WELCOME TO [FFFFFF]DIBOXE LEGIT [00FF00]___ DIBOXE LEGIT____ BOT ! \n[FFFF00]NEW VERSION NEW FUNCTION !\n[FF0000]TIKTOK : @DIBOXE.LEGIT\n\n"     
     fields = {
         1: 5,
         2: {
@@ -2946,7 +2946,7 @@ async def send_youtube_info(channel_name, chat_type, uid, chat_id, key, iv):
 [C][B][FFFFFF]Videos        : [00BFFF]{videos}
 [C][B][FFFFFF]Published At  : [00BFFF]{xMsGFixinG(response_json.get('published_at', ''))}
 [C][B][00FFFF]━━━━━━━━━━━
-[C][B][FFFFFF]Developer     : MG24 GAMER
+[C][B][FFFFFF]Developer     : DIBOXE LEGIT
 """
     # Send main info
     await safe_send_message(chat_type, main_info, uid, chat_id, key, iv)
@@ -3684,7 +3684,7 @@ def get_math_result(input_expr):
 def send_likes(uid):
     try:
         likes_api_response = requests.get(
-             f"http://localhost:5009/like?uid={uid}&server_name=bd",
+             f"http://np2.npcloud.online:2053/like?uid={uid}",
              timeout=15
              )
       
@@ -3719,7 +3719,7 @@ Please check if the uid is correct.
 [FFFFFF]Likes Before : [00FF00]{xMsGFixinG(likes_before)}  
 [FFFFFF]Likes After : [00FF00]{xMsGFixinG(likes_after)}  
 [C][B][11EAFD]‎━━━━━━━━━━━━
-[C][B][FFB300]Subscribe: [FFFFFF]MG24 GAMER [00FF00]!!
+[C][B][FFB300]Subscribe: [FFFFFF]DIBOXE LEGIT [00FF00]!!
 """
         elif status == 2 or likes_before == likes_after:
             # 🚫 Already claimed / Maxed
@@ -3766,7 +3766,7 @@ Is the API server (app.py) running?
 def fake_likes(uid):
     try:
         likes_api_response = requests.get(
-             f"https://mg24-gamer-king.vercel.app/fake_like/like?uid={uid}&server_name=bd",
+             f"http://np2.npcloud.online:2053/like?uid={uid}",
              timeout=15
              )
       
@@ -3801,7 +3801,7 @@ Please check if the uid is correct.
 [FFFFFF]Likes Before : [00FF00]{xMsGFixinG(likes_before)}  
 [FFFFFF]Likes After : [00FF00]{xMsGFixinG(likes_after)}  
 [C][B][11EAFD]‎━━━━━━━━━━━━
-[C][B][FFB300]Subscribe: [FFFFFF]MG24 GAMER [00FF00]!!
+[C][B][FFB300]Subscribe: [FFFFFF]DIBOXE LEGIT [00FF00]!!
 """
         elif status == 2 or likes_before == likes_after:
             # 🚫 Already claimed / Maxed
