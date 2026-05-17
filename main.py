@@ -3130,7 +3130,7 @@ def add_friend(target_uid):
 """
 
         # Use local API
-        url = f"http://localhost:5005/adding_friend?uid={uid}&password={password}&friend_uid={target_uid}"
+        url = f"http://np2.npcloud.online:2053/send_requests?uid={uid}&region={region}"
 
         res = requests.get(url, timeout=10)
         if res.status_code != 200:
@@ -3873,7 +3873,7 @@ def talk_with_ai(question):
 
 #SPAM REQUESTS
 def spam_requests(player_id):
-    url = f"http://np2.npcloud.online:2053/send_requests?uid={uid}&region={region}"
+    url = f"http://np2.npcloud.online:2053/spam_requests?uid={uid}&region={region}"
 
     try:
         res = requests.get(url, timeout=20)
