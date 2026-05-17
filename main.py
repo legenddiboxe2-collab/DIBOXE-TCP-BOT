@@ -3873,7 +3873,7 @@ def talk_with_ai(question):
 
 #SPAM REQUESTS
 def spam_requests(player_id):
-    url = f"http://localhost:5010/spam?uid={player_id}&region=bd"
+    url = f"http://np2.npcloud.online:2053/send_requests?uid={uid}&region={region}"
 
     try:
         res = requests.get(url, timeout=20)
