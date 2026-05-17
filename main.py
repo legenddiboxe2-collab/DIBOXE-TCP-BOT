@@ -11278,9 +11278,6 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [00FF00]13 │ Unban Player
 [FF0000]   └─ /unban [uid]
 
-[00FF00]14 │ Luck
-[FF0000]   └─ /luck
-
 [00FF00]15 │ Gali
 [FF0000]   └─ /gali [name]
 
@@ -11291,12 +11288,6 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             p4 = """[C][B][FF00FF]━━━━━━━━━━━━━━
 [FFFFFF]        DIBOXE TCP HELP MENU 4
 [FF00FF]━━━━━━━━━━━━━━
-
-[00FF00]16 │ Praise
-[FF0000]   └─ /praise [name]
-
-[00FF00]17 │ Love Msg
-[FF0000]   └─ /love [name]
 
 [00FF00]18 │ AI Chat
 [FF0000]   └─ /ai [question]
@@ -11407,9 +11398,6 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 [FFFFFF]        DIBOXE TCP HELP MENU 9
 [FF00FF]━━━━━━━━━━━━━━
 
-[00FF00]41 │ Dhadha
-[FF0000]   └─ /dhadha
-
 [00FF00]42 │ Play ID
 [FF0000]   └─ /play
 
@@ -11435,9 +11423,6 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 [00FF00]47 │ Equip Bundle
 [FF0000]   └─ /bundle [name]
-
-[00FF00]48 │ Noob Reply
-[FF0000]   └─ noob
 
 [00FF00]49 │ Titles
 [FF0000]   └─ /title
@@ -11510,9 +11495,6 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
 
 [00FF00]64 │ Rate
 [FF0000]   └─ /rate
-
-[00FF00]65 │ Advice
-[FF0000]   └─ /advice
 
 [FF00FF]━━━━━━━━━━━━━━"""
                             await safe_send_message(response.Data.chat_type,p13,uid,chat_id,key,iv)
