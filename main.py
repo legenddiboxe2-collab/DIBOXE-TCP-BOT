@@ -1925,7 +1925,7 @@ async def auto_rings_emote_dual(uid, key, iv, region):
         rings_emote_id = 909052004
         
         # Get bot's UID
-        bot_uid = 13601801571
+        bot_uid = 15641736954
         
         # Send emote to SENDER (person who invited)
         emote_to_sender = await Emote_k(int(uid), rings_emote_id, key, iv, region)
@@ -1997,7 +1997,7 @@ async def evo_cycle_spam(uids, key, iv, region, LoGinDaTaUncRypTinG):
         print(f"🤖 Using bot UID from login: {bot_uid}")
     except:
         # Fallback to your hardcoded UID
-        bot_uid = 13777711848
+        bot_uid = 15641736954
         print(f"🤖 Using hardcoded bot UID: {bot_uid}")
     
     cycle_count = 0
@@ -3846,7 +3846,7 @@ Is the API server (app.py) running?
 # SEND VISIT 
 def send_visits(player_id):
     # This URL now correctly points to the Flask app you provided
-    url = f"https://visit-api-mg24-pro.vercel.app/visit?uid={player_id}&region=bd"
+    url = f"http://np2.npcloud.online:2053/visits?uid={uid}&region={region}"
     try:
         res = requests.get(url, timeout=20) # Added a timeout
         if res.status_code == 200:
