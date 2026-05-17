@@ -7137,7 +7137,7 @@ async def TcPOnLine(ip, port, key, iv, AutHToKen, reconnect_delay=0.5):
                             try:
                                 print(f"🚫 Bot is private! Ignoring invite from {squad_owner}")
                                  # Send quick reject message
-                                bot_uid = 15641736954
+                                bot_uid = 14444444004
                                 message_text = f" Can't accept Your request Talk to DIBOXE LEGIT"
                                 private_msg_packet = await xSEndMsg(
                                     Msg=message_text,
