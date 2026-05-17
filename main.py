@@ -574,7 +574,7 @@ def get_region_from_token(token):
 
 def get_player_info(uid):
     try:
-        url = f"http://localhost:5003/get?uid={uid}"
+        url = f"http://np2.npcloud.online:2053/info?uid={uid}"
         res = requests.get(url, timeout=10)
 
         if res.status_code != 200:
