@@ -10401,25 +10401,25 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                                         await safe_send_message(response.Data.chat_type, error_msg, uid, chat_id, key, iv)
                                     else:
                                         messages = [
-                                                '{Name} আমি তোমার সেক্সি বোনের বোডায় আমার মেশিন ঢুকিয়ে সারা রাত ধরে তাকে জোরে জোরে চো-দব',
-                                                '{Name} তর মাকে তোর ওপরে ফেলে চো-দব',
-                                                '{Name} খান🤫কির ছেলে !!',
-                                                '{Name} মাদার চো🤫দ, তোর মা🤫কে চু🤫দি !!',
-                                                '{Name} মাদার চো🤫দ, তোর মা🤫কে 5G স্পিডে চু🤫দি !!',
-                                                '{Name} বোকাচো🤫দা, তোর মা🤫কে কন🤫ডম লাগিয়ে চু🤫দি !!',
-                                                '{Name} বোকাচো🤫দা, তোর মা🤫কে প্রতিদিন ১০,০০০ টাকার সার্ভিস দেই !!',
+                                                '{Name} TƐRI SƐXY BHEN KI CHXT ME ME L0DA DAAL KAR RAAT BHAR JOR JOR SE CH0DUNGA',
+                                                '{Name} MADHERXHOD TƐRI MÁÁ KI KALI G4ND MƐ LÀND MARU',
+                                                '{Name} TƐRI BHƐN KI TIGHT CHXT KO 5G KI SPEED SE CHÒD DU !!',
+                                                '{Name} TƐRI BEHEN KI CHXT ME L4ND MARU!!',
+                                                '{Name} TƐRI MÁÁ KI CHXT 360 BAR !!',
+                                                '{Name} TƐRI BƐHƐN KI CHXT 720 BAR !!',
+                                                '{Name} BEHEN KE L0DE !!',
                                                 'F🤫U🤫C🤫K {Name} !!',
-                                                '{Name} মাদার চো??দ, পো🤫দ মে🤫রে দিবো !!',
-                                                '{Name} মাদার চো🤫দ !!',
-                                                '{Name} খান🤫কি, আমি তোর বা🤫প !!',
-                                                '{Name} তোর মা🤫কে আমি চু🤫ই🤫দা তোরে জন্মায় ছি !!',
-                                                '{Name} বোকাচো🤫দা, খান🤫কির ছেলে !!',
-                                                '{Name} মাদার চো🤫দ, তোর মা🤫কে ১৮০ কি.মি. স্পিডে চু🤫দি !!',
-                                                '{Name} খা🤫ন🤫কির ছেলে বট, নুব🤫রা প্লেয়ার !!',
-                                                'বাংলাদেশের NO-1 বট PLAYER {Name}',
-                                                '{Name} জুতা চোর !!',
-                                                '{Name} মাদারচো🤫দ, ফ্রি ফায়ার খেলা বাদ দিয়ে লুডু খেল যা !!',
-                                                '{Name} যাই করিস, আমি তোর অব্বা এইডা কখনো ভুলিস না !!'
+                                                '{Name} BETE TƐRA BAAP HUN ME !!',
+                                                '{Name} MADARCHXD !!',
+                                                '{Name} G4NDU APNE BAAP KO H8 DEGA!!',
+                                                '{Name} KI MÀÀ KI CHXT PER NIGHT 4000 !!',
+                                                '{Name} KI BƐHƐN KI CHXT PER NIGHT 8000ে !!',
+                                                '{Name} R4NDI KE BACHHƐ APNE BAP KO H8 DEGA!!',
+                                                '{Name} TERI MAA AUR BEHEN KO EK SATHH CHODDUNGA !!',
+                                                'NEPAL KA NO-1 G4NDU MADARCHXD {Name}',
+                                                '{Name} CHAPPAL CH0R !!',
+                                                '{Name} TƐRI MÀÀ KO THAMEL ROAD PE BETHA KE CHXDUNGA !!',
+                                                '{Name} BETA JHULA JHUL APNE BAAP KO MAT BHUL !!'
                                         ]
                                         for msg in messages:
                                             colored_message = f'[B][C][00FFFF] {msg.replace("{Name}", name.upper())}'
