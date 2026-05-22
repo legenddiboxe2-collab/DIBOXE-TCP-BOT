@@ -3681,15 +3681,22 @@ def get_math_result(input_expr):
         return f"[B][C][FF0000]❌ Error: {str(e)}"
 
 #ADDING-100-LIKES-IN-24H
-def send_likes(uid):
+def send_likes(uid, region):
+
     try:
+
         likes_api_response = requests.get(
-             f"http://panel.thug4ff.xyz:6044/like?uid={uid}&region=ag&key=diboxe147",
-             timeout=15
-             )
-      
-      
+            f"http://panel.thug4ff.xyz:6044/like"
+            f"?uid={uid}"
+            f"&region={region}"
+            f"&key=diboxe147",
+            timeout=15
+        )
+
+        print(likes_api_response.text)
+
         if likes_api_response.status_code != 200:
+
             return f"""
 [C][B][FF0000]━━━━━
 [FFFFFF]Like API Error!
