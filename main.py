@@ -3684,7 +3684,7 @@ def get_math_result(input_expr):
 def send_likes(uid):
     try:
         likes_api_response = requests.get(
-             f"http://panel.thug4ff.xyz:6044/like?uid=${uid}&region=ag&key=diboxe147",
+             f"http://panel.thug4ff.xyz:6044/like?uid={uid}&region=ag&key=diboxe147",
              timeout=15
              )
       
