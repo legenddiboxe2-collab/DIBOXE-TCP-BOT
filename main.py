@@ -3686,10 +3686,10 @@ def send_likes(uid, region):
     try:
 
         likes_api_response = requests.get(
-            f"http://panel.thug4ff.xyz:6044/like"
+            f""
             f"?uid={uid}"
             f"&region={region}"
-            f"&key=diboxe147",
+            f"&key=",
             timeout=15
         )
 
